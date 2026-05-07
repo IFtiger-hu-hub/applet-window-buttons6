@@ -28,11 +28,13 @@ This is a Plasma 6 applet that shows window buttons in your panels. This plasmoi
 - KF6 >= 5.246.0
 - Plasma >= 5.90 (Plasma 6)
 - KDecoration3 >= 6.2.90
+- KWin (for DBus interface `org.kde.KWin.xml`)
 
-**Qt elements**: Gui Qml Quick
+**Qt elements**: Gui Qml Quick DBus Widgets
 
-**KF6 elements**: CoreAddons Config Declarative Package Svg
+**KF6 elements**: CoreAddons Config Declarative Package Svg I18n Service ConfigWidgets KCMUtils
 
+**Runtime QML dependencies**: org.kde.taskmanager (from plasma-workspace), org.kde.kirigami, org.kde.kitemmodels
 
 # Install
 
